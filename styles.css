@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(196, 195, 195);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+h1 {
+    font-size: 350%; /* Aumenta el tamaño */
+    text-align: center; /* Centra el texto */
+}
+h2{
+    color: white;
+    font-size: 200%;
+    background-color: gray;
+}
+figure {
+    display: flex;
+    align-items: flex-start; /* Alinea verticalmente */
+}
+figcaption{
+    color:bisque;
+    
+    
+}
+.punto_aparte {
+    display: block; /* Asegura que el párrafo se muestre como un bloque separado */
+    text-indent: 40px; /* Desplaza solo la primera palabra */
+    
+}
+.punto_aparte_separado_mas{
+    display: block; /* Asegura que el párrafo se muestre como un bloque separado */
+    text-indent: 150px; /* Desplaza solo la primera palabra */
+    margin-left: 60px;
+    margin-right: 35px;
+}
+em{
+    color: red;
+}
+p {
+    text-align: justify; /* Justifica el texto dentro del párrafo */
+    display: block;
+    font-size: 25px;
+}
